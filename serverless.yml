@@ -1,0 +1,41 @@
+service: serverless-boilerplate
+
+# https://www.serverless.com/framework/docs/environment-variables#differences-against-serverless-dotenv-plugin
+useDotenv: false
+
+custom:
+  # Our stage is based on what is passed in when running serverless
+  # commands. Or falls back to what we have set in the provider section.
+  stage: ${opt:stage, 'offline'}
+  region: ${opt:region, 'us-east-1'}
+  bundle:
+    linting: false
+  serverless-offline:
+    httpPort: 4000
+    noPrependStageInUrl: true
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  memorySize: 512
+  timeout: 20
+  logRetentionInDays: 90
+  lambdaHashingVersion: 20201221 # https://www.serverless.com/framework/docs/deprecations/#LAMBDA_HASHING_VERSION_V2
+  logs:
+    httpApi: true
+  httpApi:
+    # metrics: true # Enable if you need
+    cors: true
+
+functions:
+  app:
+    handler: src/handler.handler
+    events:
+      - httpApi:
+          path: '/{proxy+}'
+          method: '*'
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-bundle
+  - serverless-offline

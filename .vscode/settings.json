@@ -1,0 +1,14 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "jest.autoEnable": false,
+  "editor.formatOnSave": false,
+  "search.exclude": {
+    "package-lock.json": true
+  },
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll.format",
+    "source.fixAll.eslint"
+  ]
+}
