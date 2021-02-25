@@ -49,3 +49,27 @@ npm run dev
 ```
 
 The local server is now listening at http://localhost:4000
+
+### Deploy to production
+
+You can deploy to production with the following command:
+
+```
+npm run deploy-prod
+```
+
+### Contributions
+
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
+
+### License
+
+Licensed under the MIT License, Copyright © 2020
+
+See [LICENSE](LICENSE) for more information.
+
+---
+
+Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
+
+[![Sponsor Serverless Boilerplate Express TypeScript](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
