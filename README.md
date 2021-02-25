@@ -11,3 +11,23 @@ Clone this project and use it to create your own backend.
 ### Features
 
 Developer experience first:
+
+- 🔥 Serverless framework
+- ⚡️ Express JS
+- 🎉 Type checking TypeScript
+- ✏️ Linter with ESLint
+- 🛠 Code Formatter with Prettier
+- 📖 Local support with Serverless Offline
+- ✨ Debug locally with VSCode
+- 💨 Live reload
+- ⚙️ Environment variable with Serverless Dotenv
+- 🦊 HTTP Api instead of API gateway for cost optimization
+
+### Philosophy
+
+- Minimal code
+- 🚀 Production-ready
+
+### Requirements
+
+- Node.js and npm
