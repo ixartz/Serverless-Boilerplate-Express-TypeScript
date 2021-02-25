@@ -1,8 +1,5 @@
 service: serverless-boilerplate
 
-# https://www.serverless.com/framework/docs/environment-variables#differences-against-serverless-dotenv-plugin
-useDotenv: false
-
 custom:
   # Our stage is based on what is passed in when running serverless
   # commands. Or falls back to what we have set in the provider section.
