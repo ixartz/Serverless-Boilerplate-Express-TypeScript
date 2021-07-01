@@ -58,6 +58,10 @@ You can deploy to production with the following command:
 npm run deploy-prod
 ```
 
+### Things to know
+
+`serverless-offline-plugin` display a red warning in the console `offline: [object Object]`. It's just a warning from https://github.com/dherault/serverless-offline/blob/b39e8cf23592ad8bca568566e10c3db3469a951b/src/utils/getHttpApiCorsConfig.js. Hope it'll solve in the next release.
+
 ### Contributions
 
 Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.

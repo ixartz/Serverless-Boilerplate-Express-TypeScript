@@ -34,7 +34,7 @@
     "serverless": "^2.50.0",
     "serverless-bundle": "^4.3.1",
     "serverless-dotenv-plugin": "^3.9.0",
-    "serverless-offline": "^6.9.0",
+    "serverless-offline": "^7.0.0",
     "typescript": "^4.3.5"
   },
   "author": "Ixartz (https://github.com/ixartz)"
