@@ -4,10 +4,18 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "typescript",
-      "tsconfig": "tsconfig.json",
-      "option": "watch",
-      "problemMatcher": ["$tsc-watch"]
+      "label": "Project wide type checking with TypeScript",
+      "type": "npm",
+      "script": "build-types",
+      "problemMatcher": ["$tsc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "clear": true,
+        "reveal": "never"
+      }
     }
   ]
 }

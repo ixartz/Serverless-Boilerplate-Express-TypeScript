@@ -17,8 +17,13 @@ dist
 # Dotenv files
 .env*.local
 
+# Local folder
+local
+
 # Misc
 .DS_Store
+*.pem
+Thumbs.db
 
 # Error logs
 npm-debug.log*
