@@ -13,8 +13,8 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "plugins": ["airbnb-typescript/base", "unused-imports"],
-      "extends": ["airbnb-typescript", "plugin:prettier/recommended"],
+      "plugins": ["@typescript-eslint", "unused-imports"],
+      "extends": ["airbnb-typescript/base", "plugin:prettier/recommended"],
       "parserOptions": {
         "project": "./tsconfig.json"
       },
@@ -25,9 +25,6 @@
             "singleQuote": true
           }
         ],
-        "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-        "jsx-a11y/anchor-is-valid": "off", // Next.js use his own internal link system
-        "react/require-default-props": "off", // Allow non-defined react props as undefined
         "import/order": [
           "error",
           {
