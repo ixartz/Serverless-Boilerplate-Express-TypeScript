@@ -10,6 +10,7 @@
       "name": "Severless debug",
       "program": "${workspaceFolder}/node_modules/.bin/sls",
       "args": ["offline", "start", "--stage", "offline"],
+      "env": { "NODE_ENV": "development" },
       "autoAttachChildProcesses": true,
       "sourceMaps": true,
       "skipFiles": ["<node_internals>/**"],
