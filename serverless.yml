@@ -32,6 +32,9 @@ functions:
           path: '/{proxy+}'
           method: '*'
 
+package:
+  individually: true
+
 plugins:
   - serverless-dotenv-plugin
   - serverless-bundle

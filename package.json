@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
     "serverless-http": "^2.7.0"
   },
   "devDependencies": {
