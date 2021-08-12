@@ -22,7 +22,9 @@ provider:
     httpApi: true
   httpApi:
     # metrics: true # Enable if you need
-    cors: true
+    cors:
+      allowedOrigins:
+        - https://example.com
 
 functions:
   app:
