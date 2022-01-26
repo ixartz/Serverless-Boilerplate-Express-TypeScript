@@ -23,13 +23,14 @@
     "outDir": "dist",
     "declaration": true,
     "sourceMap": true,
-    "baseUrl": ".",
 
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": "."
   },
   "exclude": ["./dist/**/*", "./node_modules/**/*"]
 }
