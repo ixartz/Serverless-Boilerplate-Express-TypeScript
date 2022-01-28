@@ -1,7 +1,7 @@
 # Serverless Boilerplate with Serverless Framework, ExpressJS and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
-  <a href="https://creativedesignsguru.com/"><img src="https://repository-images.githubusercontent.com/341987132/6a6a5100-777a-11eb-8b21-8c8c71881eb2" alt="Serverless Boilerplate Banner"></a>
+  <a href="https://creativedesignsguru.com/"><img src="https://creativedesignsguru.com/assets/images/themes/serverless-boilerplate-expressjs-typescript.png" alt="Serverless Boilerplate Banner"></a>
 </p>
 
 🚀 Serverless Boilerplate is starter code for your backend and REST API based on Serverless framework with Express JS and TypeScript. ⚡️ Made with Serverless framework, Live reload, Offline support, ExpressJS, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Dotenv, VSCode.
@@ -32,9 +32,9 @@ Developer experience first:
 
 ### Nextless.js SaaS Boilerplate
 
-Building your SaaS product faster with [Nextless JS SaaS Boilerplate](https://nextlessjs.com).
+Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
 
-[![Nextless React SaaS Boilerplate](https://nextlessjs.com/assets/images/hero-image.png)](https://nextlessjs.com)
+[![Nextless JS React SaaS Boilerplate](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
 
 ### Premium Themes
 
@@ -42,7 +42,7 @@ Building your SaaS product faster with [Nextless JS SaaS Boilerplate](https://ne
 | --- | --- |
 | [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
 
-Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
+Find more [Nextjs Templates](https://creativedesignsguru.com/category/nextjs/).
 ### Requirements
 
 - Node.js and npm
@@ -89,7 +89,7 @@ Everyone is welcome to contribute to this project. Feel free to open an issue if
 
 ### License
 
-Licensed under the MIT License, Copyright © 2020
+Licensed under the MIT License, Copyright © 2022
 
 See [LICENSE](LICENSE) for more information.
 
