@@ -5,7 +5,8 @@
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true
+        "singleQuote": true,
+        "endOfLine": "auto"
       }
     ]
   },
@@ -22,7 +23,8 @@
         "prettier/prettier": [
           "error",
           {
-            "singleQuote": true
+            "singleQuote": true,
+            "endOfLine": "auto"
           }
         ],
         "import/order": [

@@ -45,7 +45,7 @@ Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.
 Find more [Nextjs Templates](https://creativedesignsguru.com/category/nextjs/).
 ### Requirements
 
-- Node.js and npm
+- Node.js 14+ and npm
 
 ### Getting started
 
