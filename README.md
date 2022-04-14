@@ -1,4 +1,4 @@
-# Serverless Boilerplate with Serverless Framework, ExpressJS and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Serverless Boilerplate with Serverless Framework 3, ExpressJS and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
   <a href="https://creativedesignsguru.com/"><img src="https://creativedesignsguru.com/assets/images/themes/serverless-boilerplate-expressjs-typescript.png" alt="Serverless Boilerplate Banner"></a>
