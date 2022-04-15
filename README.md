@@ -22,7 +22,7 @@ Developer experience first:
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript
-- ✨ HTTP Api instead of API gateway for cost optimization
+- ✨ No API gateway (or HTTP API) for cost optimization
 - 💨 Live reload
 
 ### Philosophy
