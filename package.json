@@ -10,6 +10,7 @@
     "clean": "rimraf dist .webpack .serverless",
     "lint": "eslint --ext .js,.ts .",
     "build-types": "tsc --noEmit --pretty",
+    "test": "jest --watch",
     "prepare": "husky install"
   },
   "dependencies": {
