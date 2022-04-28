@@ -18,6 +18,8 @@
     "serverless-http": "^3.0.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
