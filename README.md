@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/"><img src="https://creativedesignsguru.com/assets/images/themes/serverless-boilerplate-expressjs-typescript.png" alt="Serverless Boilerplate Banner"></a>
 </p>
 
-🚀 Serverless Boilerplate is starter code for your backend and REST API based on Serverless framework with Express JS and TypeScript. ⚡️ Made with Serverless framework, Live reload, Offline support, ExpressJS, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Dotenv, VSCode.
+🚀 Serverless Boilerplate is starter code for your backend and REST API based on Serverless framework with Express JS and TypeScript. ⚡️ Made with Serverless framework, Live reload, Offline support, ExpressJS, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Commitlint, Dotenv, VSCode.
 
 Clone this project and use it to create your own backend.
 
@@ -16,12 +16,14 @@ Developer experience first:
 - 📖 Local support with Serverless Offline
 - ⚙️ Environment variable with Serverless Dotenv
 - ⚡️ [ExpressJS](http://expressjs.com)
-- 🎉 Type checking [TypeScript](https://www.typescriptlang.org) with strict mode
-- ✏️ Linter with [ESLint](https://eslint.org) with Airbnb configuration
-- 🛠 Code Formatter with [Prettier](https://prettier.io)
+- ✅ Type checking [TypeScript](https://www.typescriptlang.org) with strict mode
+- 📏 Linter with [ESLint](https://eslint.org) with Airbnb configuration
+- 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
-- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript
+- 🚓 Lint git commit with Commitlint
+- 🦺 Testing with Jest
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
 - ✨ Lambda Function URLs for cost optimization (No API gateway or HTTP API)
 - 💨 Live reload
 
@@ -73,13 +75,11 @@ You can deploy to production with the following command:
 npm run deploy-prod
 ```
 
-### Things to know
-
-`serverless-offline-plugin` display a red warning in the console `offline: [object Object]`. It's just a warning from [Serverless Offline Plugin](https://github.com/dherault/serverless-offline/blob/b39e8cf23592ad8bca568566e10c3db3469a951b/src/utils/getHttpApiCorsConfig.js). Hope it'll solve in the next release of `serverless-offline-plugin`.
-
 ### VSCode information (optional)
 
 If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
+
+With the plugins installed on your VSCode, ESLint and Prettier can automatically fix the code and show you the errors. Same goes for testing, you can install VSCode Jest extension to automatically run your tests and it also show the code coverage in context.
 
 Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
 
@@ -97,4 +97,4 @@ See [LICENSE](LICENSE) for more information.
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-[![Sponsor Serverless Boilerplate Express TypeScript](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
+[![React SaaS Boilerplate](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
