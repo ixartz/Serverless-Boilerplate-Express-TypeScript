@@ -7,6 +7,7 @@ custom:
   region: ${opt:region, 'us-east-1'}
   bundle:
     linting: false
+    excludeFiles: "**/*.test.ts"
   serverless-offline:
     httpPort: 4000
     noPrependStageInUrl: true
