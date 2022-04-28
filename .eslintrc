@@ -14,7 +14,7 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "plugins": ["@typescript-eslint", "unused-imports"],
+      "plugins": ["@typescript-eslint", "unused-imports", "simple-import-sort"],
       "extends": ["airbnb-typescript/base", "plugin:prettier/recommended"],
       "parserOptions": {
         "project": "./tsconfig.json"
@@ -27,27 +27,10 @@
             "endOfLine": "auto"
           }
         ],
-        "import/order": [
-          "error",
-          {
-            "groups": ["builtin", "external", "internal"],
-            "pathGroups": [
-              {
-                "pattern": "react",
-                "group": "external",
-                "position": "before"
-              }
-            ],
-            "pathGroupsExcludedImportTypes": ["react"],
-            "newlines-between": "always",
-            "alphabetize": {
-              "order": "asc",
-              "caseInsensitive": true
-            }
-          }
-        ],
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "import/prefer-default-export": "off", // Named export is easier to refactor automatically
+        "simple-import-sort/imports": "error", // Import configuration for `eslint-plugin-simple-import-sort`
+        "simple-import-sort/exports": "error", // Export configuration for `eslint-plugin-simple-import-sort`
         "@typescript-eslint/no-unused-vars": "off",
         "unused-imports/no-unused-imports": "error",
         "unused-imports/no-unused-vars": [
@@ -55,6 +38,15 @@
           { "argsIgnorePattern": "^_" }
         ]
       }
+    },
+    // Configuration for testing
+    {
+      "files": ["**/*.test.ts"],
+      "plugins": ["jest", "jest-formatting"],
+      "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest-formatting/recommended"
+      ]
     }
   ]
 }

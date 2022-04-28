@@ -20,6 +20,9 @@ dist
 # Local folder
 local
 
+# testing
+coverage
+
 # Misc
 .DS_Store
 *.pem
@@ -27,5 +30,6 @@ Thumbs.db
 
 # Error logs
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
