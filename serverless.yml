@@ -17,14 +17,20 @@ provider:
   memorySize: 512
   timeout: 10
   logRetentionInDays: 90
+  logs:
+    httpApi: true
+  httpApi:
+    # metrics: true # Enable if you need
+    cors: true
 
 functions:
   app:
     handler: src/handler.handler
-    url:
-      # Allow CORS for all requests from any origin
-      cors: true
     # reservedConcurrency: 100
+    events:
+      - httpApi:
+          path: '/{proxy+}'
+          method: '*'
 
 package:
   individually: true

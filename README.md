@@ -24,7 +24,7 @@ Developer experience first:
 - 🚓 Lint git commit with Commitlint
 - 🦺 Testing with Jest
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
-- ✨ Lambda Function URLs for cost optimization (No API gateway or HTTP API)
+- ✨ HTTP Api instead of API gateway for cost optimization
 - 💨 Live reload
 
 ### Philosophy
