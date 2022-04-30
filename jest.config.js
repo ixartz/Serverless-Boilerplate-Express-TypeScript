@@ -1,5 +1,4 @@
 module.exports = {
-  roots: ['<rootDir>/src'],
   testMatch: ['**/*.test.{js,ts}'],
   transform: {
     '^.+\\.ts$': ['ts-jest'],
