@@ -14,7 +14,10 @@
       "autoAttachChildProcesses": true,
       "sourceMaps": true,
       "skipFiles": ["<node_internals>/**"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "sourceMapPathOverrides": {
+        "webpack:///../../../*": "${workspaceFolder}/*"
+      }
     }
   ]
 }
