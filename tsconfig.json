@@ -30,7 +30,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "exclude": ["./dist/**/*", "./node_modules/**/*"]
 }

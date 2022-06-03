@@ -3,6 +3,13 @@ module.exports = {
   transform: {
     '^.+\\.ts$': ['ts-jest'],
   },
+  moduleNameMapper: {
+    // Handle module aliases (this will be automatically configured for you soon)
+    '^@/(.*)$': '<rootDir>/src/$1',
+
+    '^__mocks__/(.*)$': '<rootDir>/__mocks__/$1',
+  },
+  clearMocks: true,
   collectCoverage: true,
   collectCoverageFrom: [
     './src/**/*.{js,ts}',
