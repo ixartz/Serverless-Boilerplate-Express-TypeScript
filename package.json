@@ -6,11 +6,11 @@
     "dev": "cross-env NODE_ENV=development sls offline start --stage offline",
     "tail-log": "sls logs -f app -t",
     "deploy-prod": "cross-env NODE_ENV=production sls deploy --stage prod",
-    "remove-prod": "sls remove --stage prod",
+    "remove-prod": "cross-env NODE_ENV=production sls remove --stage prod",
     "clean": "rimraf dist .webpack .serverless",
     "lint": "eslint --ext .js,.ts .",
     "build-types": "tsc --noEmit --pretty",
-    "test": "jest --watch",
+    "test": "jest",
     "prepare": "husky install"
   },
   "dependencies": {
