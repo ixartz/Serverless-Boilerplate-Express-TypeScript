@@ -11,6 +11,7 @@ custom:
   serverless-offline:
     httpPort: 4000
     noPrependStageInUrl: true
+    reloadHandler: true
 
 provider:
   name: aws
