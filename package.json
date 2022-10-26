@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.ts .",
     "build-types": "tsc --noEmit --pretty",
     "test": "jest",
+    "commit": "cz",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -21,12 +22,14 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/cz-commitlint": "^17.1.2",
     "@swc/jest": "^0.2.23",
     "@types/express": "^4.17.14",
     "@types/jest": "^29.1.2",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
+    "commitizen": "^4.2.5",
     "cross-env": "^7.0.3",
     "eslint": "^8.25.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -49,6 +52,11 @@
     "serverless-offline": "^11.1.2",
     "supertest": "^6.3.0",
     "typescript": "^4.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "author": "Ixartz (https://github.com/ixartz)"
 }
