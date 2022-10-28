@@ -13,5 +13,5 @@ datasource db {
 
 model User {
   id    String @id @default(auto()) @map("_id") @db.ObjectId
-  email String
+  email String @unique
 }

@@ -2,6 +2,7 @@ module.exports = {
   testMatch: ['**/*.test.{js,ts}'],
   transform: {
     '^.+\\.ts$': ['@swc/jest'],
+    '^.+\\.js$': ['@swc/jest'],
   },
   moduleNameMapper: {
     // Handle module aliases (this will be automatically configured for you soon)
@@ -10,6 +11,9 @@ module.exports = {
     '^__mocks__/(.*)$': '<rootDir>/__mocks__/$1',
   },
   clearMocks: true,
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/(?!execa)/'],
+  testTimeout: 60000,
   collectCoverage: true,
   collectCoverageFrom: [
     './src/**/*.{js,ts}',

@@ -1,3 +1,5 @@
+import 'express-async-errors';
+
 import { PrismaClient } from '@prisma/client';
 import express, { json } from 'express';
 import helmet from 'helmet';
@@ -6,9 +8,15 @@ const app = express();
 app.use(json());
 app.use(helmet());
 
-const prisma = new PrismaClient();
-
 app.get('/', async (_, res) => {
+  const prisma = new PrismaClient({
+    datasources: {
+      db: {
+        url: process.env.MOCK_MONGODB_ENDPOINT,
+      },
+    },
+  });
+
   await prisma.user.create({
     data: {
       email: 'rapidnotreloadreload88@gmail.com',
