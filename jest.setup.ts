@@ -12,9 +12,7 @@ const prismaDbPush = async () => {
       preferLocal: true,
       stdio: 'ignore',
       env: {
-        DATABASE_URL: mongodb
-          .getUri()
-          .replace('/?replicaSet=', '/nextless?replicaSet='),
+        DATABASE_URL: process.env.MOCK_MONGODB_ENDPOINT,
       },
     }
   );

@@ -13,7 +13,7 @@ module.exports = {
   clearMocks: true,
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   transformIgnorePatterns: ['<rootDir>/node_modules/(?!execa)/'],
-  testTimeout: 60000,
+  testTimeout: 30000,
   collectCoverage: true,
   collectCoverageFrom: [
     './src/**/*.{js,ts}',
