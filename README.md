@@ -22,7 +22,9 @@ Developer experience first:
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
-- 🦺 Testing with Jest
+- 📓 Write standard compliant commit messages with Commitizen
+- 🦺 Unit testing with Jest and Supertest for integration testing
+- 💡 Absolute Imports using @ prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
 - ✨ HTTP Api instead of API gateway for cost optimization
 - 💨 Live reload
