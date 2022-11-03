@@ -9,13 +9,7 @@ const app = express();
 app.use(json());
 app.use(helmet());
 
-const prisma = new PrismaClient({
-  datasources: {
-    db: {
-      url: process.env.MOCK_MONGODB_DATABASE_ENDPOINT,
-    },
-  },
-});
+const prisma = new PrismaClient();
 
 app.get('/', async (_, res) => {
   await prisma.user.create({
