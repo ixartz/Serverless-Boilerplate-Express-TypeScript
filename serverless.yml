@@ -8,6 +8,14 @@ custom:
   bundle:
     linting: false
     excludeFiles: "**/*.test.ts"
+    externals:
+      - "@prisma/client"
+    copyFiles:
+      - from: "prisma/schema.prisma"
+        to: "./"
+    packagerOptions:
+      scripts:
+        - prisma generate && rimraf node_modules/@prisma/engines/** && rimraf node_modules/prisma/libquery_engine-[^rhel]* && prisma db push
   serverless-offline:
     httpPort: 4000
     noPrependStageInUrl: true
@@ -31,8 +39,8 @@ functions:
     # reservedConcurrency: 100
     events:
       - httpApi:
-          path: '/{proxy+}'
-          method: '*'
+          path: "/{proxy+}"
+          method: "*"
 
 package:
   individually: true
