@@ -1,7 +1,7 @@
 module.exports = {
   testMatch: ['**/*.test.{js,ts}'],
   transform: {
-    '^.+\\.ts$': ['@swc/jest'],
+    '^.+\\.[jt]s$': ['@swc/jest'],
   },
   moduleNameMapper: {
     // Handle module aliases (this will be automatically configured for you soon)
