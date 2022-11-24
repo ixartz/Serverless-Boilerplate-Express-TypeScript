@@ -14,7 +14,8 @@
     "check-types": "tsc --noEmit --pretty",
     "test": "jest",
     "commit": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^4.6.1",

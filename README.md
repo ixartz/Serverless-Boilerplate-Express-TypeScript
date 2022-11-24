@@ -1,10 +1,10 @@
-# Serverless Boilerplate with Serverless Framework 3, ExpressJS and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Serverless Boilerplate with Serverless Framework 3, ExpressJS, TypeScript, Prisma and MongoDB [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
   <a href="https://creativedesignsguru.com/"><img src="https://creativedesignsguru.com/assets/images/themes/serverless-boilerplate-expressjs-typescript.png" alt="Serverless Boilerplate Banner"></a>
 </p>
 
-🚀 Serverless Boilerplate is starter code for your backend and REST API based on Serverless framework with Express JS and TypeScript. ⚡️ Made with Serverless framework, Live reload, Offline support, ExpressJS, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Commitlint, Dotenv, VSCode.
+🚀 Serverless Boilerplate is starter code for your backend and REST API based on Serverless framework with Express JS, TypeScript, Prisma and MongoDB. ⚡️ Made with Serverless framework, Live reload, Offline support, ExpressJS, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Commitlint, Dotenv, VSCode.
 
 Clone this project and use it to create your own backend.
 
@@ -13,10 +13,10 @@ Clone this project and use it to create your own backend.
 Developer experience first:
 
 - 🔥 [Serverless framework](https://www.serverless.com)
-- 📖 Local support with Serverless Offline
-- ⚙️ Environment variable with Serverless Dotenv
 - ⚡️ [ExpressJS](http://expressjs.com)
 - ✅ Type checking [TypeScript](https://www.typescriptlang.org) with strict mode
+- 📚 ORM with [Prisma](https://www.prisma.io)
+- 💖 Database with [MongoDB](https://www.mongodb.com/) with in-memory database for local development
 - 📏 Linter with [ESLint](https://eslint.org) with Airbnb configuration
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
@@ -26,6 +26,8 @@ Developer experience first:
 - 🦺 Unit testing with Jest and Supertest for integration testing
 - 💡 Absolute Imports using @ prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
+- 📖 Local support with Serverless Offline
+- ⚙️ Environment variable with Serverless Dotenv
 - ✨ HTTP Api instead of API gateway for cost optimization
 - 💨 Live reload
 
