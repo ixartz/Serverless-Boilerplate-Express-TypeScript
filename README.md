@@ -24,6 +24,8 @@ Developer experience first:
 - 🚓 Lint git commit with Commitlint
 - 📓 Write standard compliant commit messages with Commitizen
 - 🦺 Unit testing with Jest and Supertest for integration testing
+- 👷 Run tests on pull request with GitHub Actions
+- 🎁 Automatic changelog generation with Semantic Release
 - 💡 Absolute Imports using @ prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
 - 📖 Local support with Serverless Offline
