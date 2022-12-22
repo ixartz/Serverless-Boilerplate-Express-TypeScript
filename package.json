@@ -15,6 +15,7 @@
     "check-types": "tsc --noEmit --pretty",
     "test": "jest",
     "commit": "cz",
+    "test:dev": "start-server-and-test dev http://localhost:4000 'curl --head http://localhost:4000'",
     "prepare": "husky install",
     "postinstall": "prisma generate"
   },
@@ -65,6 +66,7 @@
     "serverless-bundle": "^5.5.0",
     "serverless-dotenv-plugin": "^4.0.2",
     "serverless-offline": "^11.5.0",
+    "start-server-and-test": "^1.15.2",
     "supertest": "^6.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.3"
