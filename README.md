@@ -53,7 +53,7 @@ Build your SaaS product faster with [Node.js SaaS Boilerplate](https://modernmer
 Find more [Nextjs Templates](https://creativedesignsguru.com/category/nextjs/).
 ### Requirements
 
-- Node.js 18+ and npm
+- Node.js 14+ and npm
 
 ### Getting started
 
