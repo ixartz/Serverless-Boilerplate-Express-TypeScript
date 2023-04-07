@@ -30,6 +30,7 @@ Developer experience first:
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for ESLint, Prettier, TypeScript, Jest
 - 📖 Local support with Serverless Offline
 - ⚙️ Environment variable with Serverless Dotenv
+- 🎉 Fast bundler with esbuild
 - ✨ HTTP Api instead of API gateway for cost optimization
 - 💨 Live reload
 
