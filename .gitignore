@@ -10,6 +10,7 @@ jspm_packages
 
 # Webpack
 .webpack
+.esbuild
 
 # Output
 dist
