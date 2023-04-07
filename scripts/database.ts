@@ -1,7 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies,no-console */
-import { MongoMemoryReplSet } from "mongodb-memory-server";
-import pRetry from "p-retry";
-import { prismaDbPush } from "./prisma.mjs";
+import { MongoMemoryReplSet } from 'mongodb-memory-server';
+import pRetry from 'p-retry';
+
+import { prismaDbPush } from './prisma';
 
 let mongodb: MongoMemoryReplSet | null = null;
 
@@ -10,27 +11,27 @@ let mongodb: MongoMemoryReplSet | null = null;
     instanceOpts: [
       {
         port: 27017,
-        storageEngine: "wiredTiger",
+        storageEngine: 'wiredTiger',
       },
       {
         port: 27018,
-        storageEngine: "wiredTiger",
+        storageEngine: 'wiredTiger',
       },
     ],
   });
 
   await mongodb.start();
 
-  process.env.MOCK_MONGODB_DATABASE_ENDPOINT = mongodb
+  process.env.DATABASE_URL = mongodb
     .getUri()
-    .replace("/?replicaSet=", `/modernmern?replicaSet=`);
+    .replace('/?replicaSet=', `/modernmern?replicaSet=`);
 
   await pRetry(prismaDbPush, { retries: 5 });
 
   console.log(`MongoDB ready - endpoint: ${mongodb.getUri()}`);
 })();
 
-process.on("SIGINT", () => {
+process.on('SIGINT', () => {
   if (mongodb) {
     mongodb.stop();
   }
