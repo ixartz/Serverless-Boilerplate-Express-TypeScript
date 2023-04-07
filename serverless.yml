@@ -5,17 +5,15 @@ custom:
   # commands. Or falls back to what we have set in the provider section.
   stage: ${opt:stage, 'offline'}
   region: ${opt:region, 'us-east-1'}
-  bundle:
-    linting: false
-    excludeFiles: "**/*.test.ts"
-    externals:
-      - "@prisma/client"
-    copyFiles:
-      - from: "prisma/schema.prisma"
-        to: "./"
-    packagerOptions:
-      scripts:
-        - prisma generate && rimraf node_modules/@prisma/engines/** && rimraf node_modules/prisma/libquery_engine-[^rhel]* && prisma db push
+  prismaEngine:
+    offline: "node_modules/.prisma/client/*.node"
+    staging: "node_modules/.prisma/client/libquery_engine-rhel*"
+    prod: "node_modules/.prisma/client/libquery_engine-rhel*"
+
+  esbuild:
+    platform: "node"
+    target: node16
+    sourcemap: linked
   serverless-offline:
     httpPort: 4000
     noPrependStageInUrl: true
@@ -23,7 +21,9 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  stage: ${self:custom.stage}
+  region: ${self:custom.region}
+  runtime: nodejs16.x
   memorySize: 512
   timeout: 10
   logRetentionInDays: 90
@@ -43,9 +43,13 @@ functions:
           method: "*"
 
 package:
+  patterns:
+    - "!**/*.test.ts"
+    - ${self:custom.prismaEngine.${self:custom.stage}}
+    - "node_modules/.prisma/client/schema.prisma"
   individually: true
 
 plugins:
   - serverless-dotenv-plugin
-  - serverless-bundle
+  - serverless-esbuild
   - serverless-offline
