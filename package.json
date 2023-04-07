@@ -1,6 +1,6 @@
 {
   "name": "serverless-boilerplate-express-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Serverless framework ExpressJS TypeScript",
   "scripts": {
     "dev:db": "ts-node --esm scripts/database.ts",
