@@ -13,6 +13,7 @@ custom:
   esbuild:
     platform: "node"
     target: node16
+    sourcemap: linked
   serverless-offline:
     httpPort: 4000
     noPrependStageInUrl: true

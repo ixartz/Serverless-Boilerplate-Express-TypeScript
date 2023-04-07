@@ -15,9 +15,7 @@
       "sourceMaps": true,
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal",
-      "sourceMapPathOverrides": {
-        "webpack:///../../../*": "${workspaceFolder}/*"
-      }
+      "outFiles": ["${workspaceFolder}/.esbuild/.build/**/*.js"]
     }
   ]
 }
