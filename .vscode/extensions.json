@@ -5,6 +5,7 @@
     "mikestead.dotenv",
     "Orta.vscode-jest",
     "prisma.prisma",
-    "mongodb.mongodb-vscode"
+    "mongodb.mongodb-vscode",
+    "yoavbls.pretty-ts-errors"
   ]
 }
