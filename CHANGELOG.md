@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/compare/v1.1.0...v1.2.0) (2023-05-05)
+
+
+### Features
+
+* add pretty-ts-errors extension in vscode ([55875be](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/commit/55875be5f6a8e2daa85c27384f6dfd1199b2ce0d))
+
+
+### Reverts
+
+* remove node.js version 20 support ([0047634](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/commit/004763445d655bf3a24f3b97eeeb50fb9f2e43a7))
+
 # [1.1.0](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/compare/v1.0.0...v1.1.0) (2023-04-07)
 
 
