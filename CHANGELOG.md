@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/compare/v1.2.0...v1.2.1) (2023-07-23)
+
+
+### Bug Fixes
+
+* resolve no such option -c during deployment ([632f93e](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/commit/632f93e1acebbe4eec86a12f86b6092527ce538f))
+
 # [1.2.0](https://github.com/ixartz/Serverless-Boilerplate-Express-TypeScript/compare/v1.1.0...v1.2.0) (2023-05-05)
 
 
