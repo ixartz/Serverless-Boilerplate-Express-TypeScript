@@ -3,11 +3,11 @@
   "version": "1.2.1",
   "description": "Serverless framework ExpressJS TypeScript",
   "scripts": {
-    "dev:db": "ts-node --esm scripts/database.ts",
+    "dev:db": "tsx scripts/database.ts",
     "dev:server": "cross-env NODE_ENV=development NODE_OPTIONS=--dns-result-order=ipv4first sls offline start --stage offline",
     "dev": "run-p dev:*",
     "tail-log": "sls logs -f app -t",
-    "deploy:db": "dotenv -e .env.production -c -- ts-node --esm scripts/deployDbProd.ts",
+    "deploy:db": "dotenv -e .env.production -c -- tsx scripts/deployDbProd.ts",
     "deploy:app": "cross-env NODE_ENV=production sls deploy --stage prod",
     "deploy-prod": "run-s deploy:*",
     "remove-prod": "cross-env NODE_ENV=production sls remove --stage prod",
@@ -74,8 +74,8 @@
     "serverless-offline": "^13.2.0",
     "start-server-and-test": "^2.0.1",
     "supertest": "^6.3.3",
-    "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   },
   "config": {

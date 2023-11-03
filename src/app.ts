@@ -12,7 +12,7 @@ const prisma = new PrismaClient();
 
 app.get('/', (_, res) => {
   res.json({
-    msg: 'Hello World 22',
+    msg: 'Hello World',
   });
 });
 
