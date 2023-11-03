@@ -12,7 +12,7 @@ jobs:
   release:
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     name: Create a new release
     runs-on: ubuntu-latest
@@ -31,5 +31,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
