@@ -24,25 +24,25 @@ Clone this project and use it to create your own backend.
     <td align="center" width="33%">
       <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="CodeRabbit" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <img alt="CodeRabbit" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-dark.png?raw=true">
-          <img alt="Sentry" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-dark.png?raw=true">
+          <img alt="Sentry" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-dark.png?raw=true">
         </picture>
       </a>
       <a href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-white.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-dark.svg?raw=true">
-          <img alt="Codecov" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-white.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-dark.svg?raw=true">
+          <img alt="Codecov" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-dark.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -51,24 +51,24 @@ Clone this project and use it to create your own backend.
     <td align="center" width="33%">
       <a href="https://launch.arcjet.com/Q6eLbRE">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-light.svg?raw=true">
-          <img alt="Arcjet" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-light.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-light.svg?raw=true">
+          <img alt="Arcjet" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-light.svg?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-dark.png?raw=true">
-          <img alt="Crowdin" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-dark.png?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
-        <img src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
+        <img src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
   </tr>
@@ -189,25 +189,25 @@ See [LICENSE](LICENSE) for more information.
     <td align="center" width="33%">
       <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="CodeRabbit" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <img alt="CodeRabbit" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/coderabbit-logo-light.svg?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-dark.png?raw=true">
-          <img alt="Sentry" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/sentry-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-dark.png?raw=true">
+          <img alt="Sentry" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/sentry-dark.png?raw=true">
         </picture>
       </a>
       <a href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-white.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-dark.svg?raw=true">
-          <img alt="Codecov" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/codecov-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-white.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-dark.svg?raw=true">
+          <img alt="Codecov" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/codecov-dark.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -216,24 +216,24 @@ See [LICENSE](LICENSE) for more information.
     <td align="center" width="33%">
       <a href="https://launch.arcjet.com/Q6eLbRE">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-light.svg?raw=true">
-          <img alt="Arcjet" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/arcjet-light.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-light.svg?raw=true">
+          <img alt="Arcjet" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/arcjet-light.svg?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-dark.png?raw=true">
-          <img alt="Crowdin" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/crowdin-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/crowdin-dark.png?raw=true">
         </picture>
       </a>
     </td>
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
-        <img src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/tree/master/public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
+        <img src="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/raw/master/public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
   </tr>
